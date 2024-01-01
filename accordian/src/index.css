@@ -1,0 +1,53 @@
+/* Style for the wrapper */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+/* Style for the accordion container */
+.accordian {
+  width: 300px;
+}
+
+/* Style for each accordion item */
+.item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Style for the accordion title */
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+/* Style for the question */
+.question {
+  margin: 0;
+}
+
+/* Style for the accordion answer */
+.answer {
+  padding: 10px;
+}
+
+/* Style for the "+" icon */
+.title span {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Rotate the "+" icon when the accordion is selected */
+.title.active span {
+  transform: rotate(45deg);
+}
+
+.active {
+  background-color: rgb(174, 175, 176);
+}
